@@ -1,0 +1,80 @@
+.choco {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  background-image: linear-gradient(rgba(255, 201, 185, 0.6), rgba(255, 201, 185, 0.6)), url('/Images/ice-bg.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  // background-position: center;
+  color: #ffc9b9; 
+}
+
+.choco-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-header {
+  background-image: url('/Images/choco/bg img.jpg');
+  display: flex;
+  align-items: center;
+  text-wrap: nowrap;
+  width: 30%; 
+  margin: 0; 
+  border-radius: 10px; 
+  padding: 15px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.header-cho {
+  font-weight: 900;
+  font-size: 22px;
+  color: black;
+  margin-top: 13px;
+}
+
+.choco-img {
+  width: 20%;
+  max-width: 110px;
+  border-radius: 50%;
+  margin-left: 0;
+}
+
+.choco-items {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.choco-item {
+  text-align: center;
+  padding: 10px;
+  margin: 20px 10px;
+}
+
+.choco-item img {
+  padding: 15px;
+  width: 100%;
+  max-width: 210px;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  transition: transform 0.3s ease;
+}
+
+.choco-item img:hover {
+  transform: scale(1.1); 
+}
+
+
+.choco-name {
+  font-size: 18px;
+  color: #333; 
+}
+
+.choco-price {
+  font-size: 16px;
+  color: #555;
+}

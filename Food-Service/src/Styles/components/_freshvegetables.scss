@@ -1,0 +1,97 @@
+.freshvege {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  background-image: linear-gradient(rgba(255, 201, 185, 0.6), rgba(255, 201, 185, 0.6)), url('/Images/water-img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff; 
+}
+
+
+.freshvege-wrapper {
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+.freshvege-header {
+  font-weight: 900;
+  font-size: 25px;
+  color: black;
+  margin-top: 13px;
+  padding: 10px;
+}
+
+.vege-icon {
+  width: 20%;
+  max-width: 110px;
+  margin-top: 20px;
+}
+
+.freshvege-mix {
+  background-image: url('/Images/vege-bgg.webp');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  text-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 37%;
+  height: 110px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.vegefruit-item {
+  text-align: center;
+  padding: 5px;
+  margin: 20px 10px;
+  margin-bottom: 10px;
+}
+
+// .vegefruit-img {
+//   padding: 15px;
+//   margin: 0 auto;
+//   width: 90%;
+//   max-width: 230px;
+//   height: 230px;
+//   border-radius: 10px;
+//   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+//   margin-bottom: 5px;
+//   transition: transform 0.3s ease;
+//   opacity: 0.8; 
+// }
+.vegefruit-img {
+  padding: 15px; 
+  margin: 0 auto;
+  width: 100%; 
+  max-width: 220px;
+  height: 220px;
+  border-radius: 10px; 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px 0px;
+  margin-bottom: 5px;
+  transition: transform 0.3s ease;
+  // opacity: 0.8; 
+}
+
+.vegefruit-img:hover {
+  transform: scale(1.1); 
+}
+
+
+.vegefruit-name {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+  padding-top: 8px;
+}
+
+.vegefruit-price {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}

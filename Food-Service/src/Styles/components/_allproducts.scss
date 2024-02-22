@@ -1,0 +1,125 @@
+.allproducts {
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  position: relative;
+  background-image: linear-gradient(rgba(255, 201, 185, 0.6), rgba(255, 201, 185, 0.6)), url('/Images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff; 
+}
+  
+.allproducts-wrapper {
+  margin-bottom: 20px;
+}
+
+.pop-picks {
+  background-image: url('/Images/pop-bg.jpg');
+  // background-size: cover;
+  background-position: center;
+  display: flex;
+  text-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 37%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+  
+.pop-header {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+  margin-right: 25px;
+}
+  
+.all-products {
+  display: grid;
+  // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  gap: 20px;
+  }
+  
+.products-container {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 0;
+  
+    &:hover {
+      transform: scale(1.05);
+      z-index: 1
+    }
+  
+    .full-cls {
+        display: flex;
+        flex-direction: column;
+    }
+
+.products-img img {
+  border-radius: 10px;
+  width: 100%; 
+  height: 200px; 
+  object-fit: contain;
+  box-shadow: 0 4px 8px rgba(231, 117, 11, 0.1);
+}
+   
+.products-name {
+  padding: 16px;
+
+}
+    .item-name {
+      font-size: 16px;
+      margin-bottom: 8px;
+      color: #333;
+    }
+    .item-details {
+      font-size: 16px;
+      color: #333;
+    
+  }
+
+//   .card-products {
+//     position: relative;
+  
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 1;
+  
+    .outline,
+    .addcart {
+      color: orange;
+      cursor: pointer;
+      font-size: 23px;
+      padding: 10px;
+      opacity: 0; 
+      transition: opacity 0.3s ease-in-out;
+    }
+  
+    &:hover {
+      .outline,
+      .addcart {
+        opacity: 1;
+      }
+    }
+  }
+}
+  

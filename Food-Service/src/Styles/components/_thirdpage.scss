@@ -1,0 +1,105 @@
+.thirdpage {
+    padding: 30px; 
+}
+  
+.thirdpage-wrapper {
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: space-between; 
+}
+  
+// .main-img {
+//   width: 80%; 
+//   max-width: 500px; 
+//   height: auto; 
+//   border-radius: 8px; 
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//   transition: transform 0.3s ease-in-out;
+// }
+
+.main-img {
+  width: 90%; 
+  max-width: 700px; 
+  height: auto; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  // transition: transform 0.3s ease-in-out;
+  // background: rgba(255, 255, 255, 0.8); /* Set the background color to semi-transparent white */
+}
+
+
+.main-img :hover {
+  transform: scale(1.1); 
+}
+  
+.slider-container {
+  margin-top: 70px;
+  margin: 0;
+  position: relative;
+  width: 30%; 
+  margin-left: 20px; 
+  height: 380px; 
+}
+  
+.deals-day {
+  text-align: center; 
+  margin-bottom: 0; 
+}
+  
+.deals-day img {
+  width: 90%; 
+  max-width: 500px; 
+  height: auto; 
+  border: none; 
+  border-radius: 10px; 
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-300%); 
+  }
+}
+  
+.img-slide {
+  position: relative;
+  width: 100%;
+  border-style: solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(243, 83, 83, 0.1);
+  height: 435px;
+  animation: slideAnimation 20s linear infinite;
+}
+  
+// .img-slide img {
+//   width: 70%;
+//   height: 60%;
+// }
+
+.img-slide img {
+  width: 80%;
+  height: 60%;
+  margin: auto; /* Add this line to center the image horizontally */
+  display: block; /* Add this line to center the image horizontally */
+  position: absolute; /* Keep the image absolutely positioned */
+  top: 50%;
+  left: 15%;
+  transform: translate(0, -50%); /* Center the image vertically */
+}
+
+
+.img-slide p {
+  position: absolute;
+  bottom: 0; 
+  width: 100%; 
+  background: none;
+  color: #333; 
+  padding: 0; 
+  margin-bottom: 25px; 
+  text-align: center;
+  font-weight: bold; 
+}
+  
